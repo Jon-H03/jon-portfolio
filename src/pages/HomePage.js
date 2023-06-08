@@ -13,7 +13,9 @@ function HomePage() {
                 <div className="main">
                     <Nav />
                     <h1>Jonathan Hirsch</h1>
-                    <h6>Hello there, I'm a post-baccalaureate Computer Science student from Oregon State.</h6>
+                    <h6>
+                        Hello there, I'm a post-baccalaureate Computer Science student from Oregon State University.
+                    </h6>
                     <div className='header-icons'>
                         <Link to="mailto:jonathan.hirsch2011@gmail.com"><AiOutlineMail /></Link>
                         <Link to="https://www.linkedin.com/in/jonathan-hirsch3/"><AiOutlineLinkedin /></Link>

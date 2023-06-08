@@ -22,7 +22,7 @@ function App() {
         </section>
       </main>
       <footer>
-        &copy; Jonathan Hirsch 2023
+        😊❤️ &copy; Jonathan Hirsch 2023
       </footer>
       </BrowserRouter>
     </>
