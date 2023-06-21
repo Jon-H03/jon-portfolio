@@ -167,6 +167,7 @@ footer a:hover {
   /* Adjust the layout for small screens */
 
   body {
+    background-color: rgb(170, 170, 245);
     background-image: none; /* Remove background image on small screens */
   }
 
@@ -180,6 +181,7 @@ footer a:hover {
   }
 
   .header-icons {
+    padding: 0 0 .5em 0
     flex-wrap: wrap; /* Allow icons to wrap on small screens */
   }
 
