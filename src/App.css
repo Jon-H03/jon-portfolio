@@ -181,7 +181,7 @@ footer a:hover {
   }
 
   .header-icons {
-    padding: 0 0 .5em 0;
+    padding: 0 0 1em 0;
     flex-wrap: wrap; /* Allow icons to wrap on small screens */
   }
 
