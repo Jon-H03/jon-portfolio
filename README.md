@@ -4,7 +4,7 @@
 
 # About
 Simple, mobile-friendly portfolio created by myself. 
-Contains links to connect, contact, and portfolio.
+Contains links to connect, contact, and GitHub portfolio.
 
 # Technologies Used
 * JavaScript
