@@ -5,9 +5,9 @@ html, body {
 }
 
 body {
-  background: linear-gradient(-45deg, #0C134F, #1D267D, #5C469C, #D4ADFC);
+  background: linear-gradient(-45deg, #d1625e, #d69c7a, #d67d7a, #cfa466);
 	background-size: 400% 400%;
-	animation: gradient 7s ease infinite;
+	animation: gradient 4s ease infinite;
 	height: 100vh;
   
   background-position: center;

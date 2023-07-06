@@ -4,7 +4,7 @@ import React from 'react';
 import Nav from '../components/Nav';
 import { Link } from 'react-router-dom'
 import { AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
-import Pfp from '../images/pfp.jpg'
+import Pfp from '../images/pfp.png'
 
 function HomePage() {
     return (
@@ -20,7 +20,7 @@ function HomePage() {
                         <img src={Pfp} alt=" description" className="image" />
                         </div>
                     <h6>
-                        Hello there, I'm a post-baccalaureate Computer Science student from Oregon State University.
+                        Hello there, I'm a Computer Science student from Oregon State University.
                         Feel free to reach me at my socials below! 
                     </h6>
                     <div className='header-icons'>
