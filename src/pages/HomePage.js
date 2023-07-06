@@ -17,7 +17,7 @@ function HomePage() {
                         <span className="first-name">Jonathan</span>
                         <span className="last-name">Hirsch</span>
                     </h1>
-                        <img src={Pfp} alt=" description" />
+                        <img src={Pfp} alt=" description" className="image" />
                         </div>
                     <h6>
                         Hello there, I'm a post-baccalaureate Computer Science student from Oregon State University.
