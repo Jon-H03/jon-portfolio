@@ -4,7 +4,7 @@ import React from 'react';
 import Nav from '../components/Nav';
 import { Link } from 'react-router-dom'
 import { AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
-
+import Pfp from '../images/pfp.jpg'
 
 function HomePage() {
     return (
@@ -12,7 +12,13 @@ function HomePage() {
             <header>
                 <div className="main">
                     <Nav />
-                    <h1>Jonathan Hirsch</h1>
+                    <div class="container">
+                    <h1>
+                        <span className="first-name">Jonathan</span>
+                        <span className="last-name">Hirsch</span>
+                    </h1>
+                        <img src={Pfp} alt=" description" />
+                        </div>
                     <h6>
                         Hello there, I'm a post-baccalaureate Computer Science student from Oregon State University.
                         Feel free to reach me at my socials below! 

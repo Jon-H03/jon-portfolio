@@ -5,8 +5,11 @@ html, body {
 }
 
 body {
-  background-image: url("images/clouds.JPG");
-  background-size: cover;
+  background: linear-gradient(-45deg, #0C134F, #1D267D, #5C469C, #D4ADFC);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+  
   background-position: center;
   background-repeat: no-repeat;
   font-family: Arial, sans-serif;
@@ -14,7 +17,17 @@ body {
   padding: 0;
   background-color: #f7f7f7;
 }
-
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 /* Main Content */
 .section {
   margin-bottom: 20px;
@@ -161,6 +174,37 @@ footer a {
 footer a:hover {
   color: #888;
 }
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.first-name {
+  display: block;
+}
+
+.last-name {
+  display: cen;
+  
+  margin-top: .1em; /* Adjust as needed for spacing between the names */
+}
+
+
+img {
+  max-width: 30%;
+  height: auto;
+  margin: 5%;
+  margin-top: 10%;
+}
+
 
 /* Responsive Styles */
 @media only screen and (max-width: 600px) {

@@ -12,7 +12,7 @@ function Nav() {
                 Resume
             </a>
             <a href="https://github.com/Jon-H03/" className='nav-button' target="_blank" rel='noopenerr noreferrer'>
-                Projects
+                GitHub
             </a>
         </nav>
     )
