@@ -1,7 +1,6 @@
 // Navbar for each page
 
 import React from 'react';
-import { AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
 
 
 function Nav() {
