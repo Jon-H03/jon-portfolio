@@ -1,12 +1,13 @@
 // Navbar for each page
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { AiOutlineMail, AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai';
+
 
 function Nav() {
     return (
         <nav id='main-nav'>
-            <Link to="/" className="nav-button">Home</Link>
+            
 
             <a href="/resume.pdf" className='nav-button' target="_blank" rel='noopenerr noreferrer'>
                 Resume
