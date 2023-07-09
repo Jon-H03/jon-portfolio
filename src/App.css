@@ -227,9 +227,12 @@ img {
   .main h1 {
     font-size: 5em;
     margin-bottom: 0em;
+    
+    margin-top: 0;
   }
 
   .main h6 {
+    padding-top: 0;
     font-size: 1.5em;
     margin-bottom: 1em;
   }
@@ -238,7 +241,10 @@ img {
   }
   .header-icons {
     margin-top: 3%;
-    margin-bottom: 5%;
+    margin-bottom: 3em;
+    margin-left: 1em;
+    margin-right: 1em;
+    
   }
 
   .header-icons a {
